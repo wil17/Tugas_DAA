@@ -43,7 +43,8 @@ Terdapat beberapa macam time complexity, diantaranya:
 
 <p align="justify"> Contoh diatas, terdapat sebuah fungsi untuk mengambil elemen pertama dari sebuah input array. Kita bisa melihat bahwa berapapun jumlah array yang diberikan kepada fungsi tersebut, dia akan selalu melakukan 1 hal, yaitu mengambil elemen pertama. Itu artinya <b>jumlah input yang diberikan tidak mempengaruhi waktu proses (runtime) dari algoritma tersebut.</b>
 
-<p align="center"><img src="constant.png">Constant Time
+<p align="center"><img src="constant.png">
+<p align="center">Constant Time
 
 ### **O(log n) — Logarithmic Time**
 <p align="justify"><b>Logarithmic Time</b> artinya ketika kita memberikan input sebesar n terhadap sebuah fungsi, jumlah tahapan yang dilakukan oleh fungsi tersebut berkurang berdasarkan suatu faktor. Salah satu contohnya adalah <b>algoritma Binary Search.</b>
@@ -84,7 +85,8 @@ Terdapat beberapa macam time complexity, diantaranya:
 
 Kita bisa melihat bahwa <b>semakin banyak jumlah input yang diberikan, maka waktu proses/runtime dari fungsi tersebut akan semakin besar.</b>
 
-<p aligm="center"><img src="linear.png">Linear Time
+<p aligm="center"><img src="linear.png">
+<p align="center">Linear Time
 
 ### **O(n²) — Quadratic Time**
 <p align="justify"><b>Quadratic Time</b> adalah ketika runtime dari fungsi kita adalah sebesar n^2, dimana n adalah jumlah input dari fungsi tersebut. Hal tersebut bisa terjadi karena kita menjalankan <b>fungsi linear didalam fungsi linear</b> (n*n).
@@ -104,12 +106,14 @@ Kita bisa melihat bahwa <b>semakin banyak jumlah input yang diberikan, maka wakt
     }
     let sortedArray = sort(myArray);
 
-<p align="center"><img src="Quadric.png">Quadric Time
+<p align="center"><img src="Quadric.png">
+<p align="center">Quadric Time
 
 ### **O(2^n) — Exponential Time**
 <p align="justify"><b>Exponential Time</b> biasanya digunakan dalam situasi dimana kita tidak terlalu tahu terhadap permasalahan yang dihadapi, sehingga mengharuskan kita mencoba setiap <b>kombinasi</b> dan <b>permutasi</b> dari semua kemungkinan.
 
-<p align="center"><img src="exponential.png">Exponential Time
+<p align="center"><img src="exponential.png">
+<p align="center">Exponential Time
 
 ### **Kesimpulan**
 <p align="justify">Sebagai programmer, kita sering kali dihadapkan dengan adanya beberapa solusi untuk sebuah permasalahan dan kita dibingungkan dengan pertanyaan <i><b>“mana solusi yang lebih efisien?”.</i></b>
